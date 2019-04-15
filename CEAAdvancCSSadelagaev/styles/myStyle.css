@@ -1,0 +1,216 @@
+body 
+{
+    direction:rtl;
+}
+#container{
+    margin:0 auto;
+    width:960px;
+}
+h1 {
+    margin: 10px;
+}
+/*.....1.......*/
+#one{
+    width:160px;
+    background-color:green;
+    height:50px;
+    text-align:center;
+    color:white;
+    font-weight:bold;
+padding-top:20px;
+  display:inline-block;
+}
+#two {
+    width: 160px;
+    background-color: green;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+ display:inline-block;
+  padding-top:20px;
+    
+}
+#three {
+    width: 160px;
+    background-color: green;
+    height: 50px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+    padding-top: 20px;
+}
+.zoz{display:block;
+
+}
+/* ................................2..............................*/
+#mylinks{
+
+}
+#first {
+    width: 110px;
+    background-color: red;
+    height: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size:small;
+}
+#second {
+    width: 110px;
+    background-color: red;
+    height: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+    margin-top: 10px;
+    display: inherit;
+    font-size: small;
+}
+#theird {
+    width: 110px;
+    background-color: red;
+    height: 10px;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 10px 10px;
+    display: inline-block;
+    margin-top: 10px;
+    font-size: small;
+}
+
+/*......................................3...............................*/
+
+#flags{
+    background-image:url("../images/flags.jpg");
+     width:300px;
+     height:300px;
+     background-position: top right;
+
+       
+
+}
+
+/*/////////////////////*/
+
+.wrap{
+    background-color:white;
+    border:2px solid black;
+    margin:30px;
+    display:inline-block;
+    
+}
+.p1{float:right;
+    height:30px;
+    width:100px;
+    padding:8px;
+
+
+}
+.q1 {
+    float: left;
+    padding: 8px;
+}
+
+#p2 {float: left;
+    height: 20px;
+    width: 170px;
+    padding: 8px;
+   
+}
+#q2{ 
+
+ }
+
+/*.........part 2.............................*/
+
+.zebraText h1:first-letter {
+    color: darkred;
+    font-size:xx-large;
+}
+.zebraText p:nth-child(even) {
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 20px;
+}
+
+.zebraText p:nth-child(odd){
+    background-color:white;
+    color:black;
+
+
+}
+/*............2.............*/
+ul{padding-top:20px;}
+ul:first-letter{
+    color:blue;
+    font-size:x-large;
+    display:block
+}
+li:last-child {
+    color: blue;
+    font-size: large;
+}
+li:nth-child(2) {
+    color: blue;
+    font-size: large;
+    text-align:right;
+}
+li:nth-child(3){
+    color:red;
+    font-size:xx-large;
+    text-decoration:underline;
+}
+
+/*.............part3........*/
+
+.hover p{background-color:yellow;
+         color:black;
+         width:60px;
+         height:60px;
+         text-align:left;
+
+
+}
+    .hover p:hover {
+        background-color: green;
+        color: black;
+        width: 60px;
+        height: 60px;
+        border:10px solid red;
+        text-align:center;
+        padding:20px 10px 20px 10px;
+    }
+
+    /*.................*/
+#Angry{
+    background-image:url("../images/angryRedBIrd.png");
+    width:103px;
+    height:101px;
+    
+    background-repeat:no-repeat;
+}
+    #Angry:hover {
+        background-image: url("../images/angryRedBIrd.png");
+        width: 103px;
+        height: 101px;
+        background-position: center;
+       
+    }
+    #Angry:active {
+        background-image: url("../images/angryRedBIrd.png");
+        width: 103px;
+        height: 101px;
+        background-position: bottom;
+       
+    }
+
+
+
